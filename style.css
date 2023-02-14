@@ -1,24 +1,46 @@
 body {
-    background-image: url('flowers8.jpeg');
+    background-image: url('./flowers8.jpeg');
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
   }
+
+  /* body {
+    background-image: url('flowers.jpg'), url('flowers2.jpg'), url('flowers4.jpg');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center, bottom left, top right;
+    background-size: cover, 50px, 50px;
+  } */
+
   
   .container {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px #000;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+  }
+  
+  .row1 {
+    margin-top: 20px;
+  }
+  .row1 h1 {
+    font-family: 'Cursive', sans-serif;
+  }
+  
+  .row2 {
+    margin: 20px 0;
   }
   
   #photo {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    margin:10%;
   }
   

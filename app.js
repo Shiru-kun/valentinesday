@@ -3,4 +3,4 @@
 // const sender = prompt("Enter your name:");
 // document.getElementById("photo").src = photo;
 document.getElementById("message").innerHTML = "Mira Alex";
-document.getElementById("sender").innerHTML = "Focas Kandulo";
+document.getElementById("sender").innerHTML = "By: FK";
