@@ -9,54 +9,62 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
-        <style>
-            /* CSS styles for the love card */
-            .love-card {
-              background-color: rgba(255, 255, 255, 0.8);
-              width: 500px;
-              height: 500px;
-              margin: 50px auto;
-              text-align: center;
-              border-radius: 10px;
+    <style>
+        /* CSS styles for the love card */
+        .love-card {
+            background-color: rgba(255, 255, 255, 0.8);
+            width: 500px;
+            height: 500px;
+            margin: 50px auto;
+            text-align: center;
+            border-radius: 10px;
 
 
 
-            }
-            .header {
-              font-family: 'Cursive', sans-serif;
-              font-size: 36px;
-              margin: 50px 0;
-            }
-            .fa-heart,
-            .fa-heartbeat,
-            .fa-cupid {
-              font-size: 36px;
-              color: red;
-              animation: love-icon 1s ease-in-out infinite;
-            }
-            .fa-heart:hover,
-            .fa-heartbeat:hover,
-            .fa-cupid:hover {
-              color: pink;
-              transform: rotate(360deg);
-              transition: all 0.3s ease-in-out;
-            }
-            @keyframes love-icon {
-              0% {
+        }
+
+        .header {
+            font-family: 'Cursive', sans-serif;
+            font-size: 36px;
+            margin: 50px 0;
+        }
+
+        .fa-heart,
+        .fa-heartbeat,
+        .fa-cupid {
+            font-size: 36px;
+            color: red;
+            animation: love-icon 1s ease-in-out infinite;
+        }
+
+        .fa-heart:hover,
+        .fa-heartbeat:hover,
+        .fa-cupid:hover {
+            color: pink;
+            transform: rotate(360deg);
+            transition: all 0.3s ease-in-out;
+        }
+
+        
+
+        @keyframes love-icon {
+            0% {
                 transform: translateY(0);
-              }
-              50% {
+            }
+
+            50% {
                 transform: translateY(-10px);
-              }
-              100% {
-                transform: translateY(0);
-              }
             }
-          </style>
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <div class=" love-card" >
+    <div class=" love-card">
         <h1 class="header"></h1>
         <p>Amo-te muito</p>
         <i class="fas fa-heart"></i>
@@ -71,7 +79,7 @@
             <p></p>
             <p id="sender"></p>
         </div>
-      </div>
+    </div>
     <script src="app.js"></script>
 </body>
 
