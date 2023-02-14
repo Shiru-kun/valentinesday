@@ -1,5 +1,6 @@
 body {
-    background: #ffa07a;
+    background-image: url('flowers8.jpeg');
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,63 +8,17 @@ body {
   }
   
   .container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
     text-align: center;
   }
   
-  .heart {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: 20px auto;
-    animation: beat 1s ease-in-out infinite alternate;
-  }
-  
-  .heart-shape {
-    width: 100%;
-    height: 100%;
-    background: #ff0000;
-    border-radius: 50% 50% 0;
-    transform: rotate(45deg);
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .heart-shape:before,
-  .heart-shape:after {
-    content: "";
-    width: inherit;
-    height: inherit;
-    background: #ff0000;
-    border-radius: 50% 50% 0;
-    position: absolute;
-  }
-  
-  .heart-shape:before {
-    top: -50px;
-    left: 0;
-  }
-  
-  .heart-shape:after {
-    top: 0;
-    left: -50px;
-  }
-  
-  @keyframes beat {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.5);
-    }
-    100% {
-      transform: scale(1);
-    }
-
-  }
-  img {
-    width: 25%;
-    height: 40%;
-    border-radius: 10%;
+  #photo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin:10%;
   }
   

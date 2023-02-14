@@ -1,4 +1,6 @@
-// const name = prompt("Enter your name:");
-// const image = prompt("Enter the image URL:");
-document.getElementById("name").innerHTML = `Te amo Mira Alex!!`;
-// document.getElementById("image").src = image;
+// const photo = prompt("Enter the photo URL:");
+// const message = prompt("Enter your message:");
+// const sender = prompt("Enter your name:");
+// document.getElementById("photo").src = photo;
+document.getElementById("message").innerHTML = "Mira Alex";
+document.getElementById("sender").innerHTML = "Focas Kandulo";
