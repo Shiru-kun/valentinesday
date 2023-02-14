@@ -59,5 +59,11 @@ body {
     100% {
       transform: scale(1);
     }
+
+  }
+  img {
+    width: 525px;
+    height: 300px;
+    border-radius: 75px;
   }
   
