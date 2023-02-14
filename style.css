@@ -8,6 +8,8 @@ body {
     animation: change-bg 10s ease-in-out infinite;
   }
 
+ 
+
   @keyframes change-bg {
     0% {
         background-image: url('flowers8.jpeg');
@@ -68,5 +70,13 @@ body {
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    animation: zoomIn 2s ease-in-out ;
+}
+@keyframes zoomIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
   }
-  
